@@ -1,0 +1,182 @@
+.Map {
+  padding: 4rem 0rem;
+  height: 700px;
+  width: 80%;
+}
+
+.control-panel {
+  height: 300px;
+  width: 300px;
+  font-size: 10px;
+}
+*/ .control-panel h3 {
+  font-size: 12px;
+}
+
+.scrollspy-example {
+  height: 40rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-top: 1rem;
+  float: left;
+  width: 30%;
+}
+
+.card {
+  margin: 2rem 0.5rem;
+  padding: 1rem 0rem;
+}
+
+.card img {
+  height: 10rem;
+}
+
+.card:hover {
+  background-color: salmon;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(63, 221, 0);
+  border-radius: 10px;
+}
+
+.scrollspy-example2 {
+  height: 30rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 40%;
+  border: 2px solid black;
+  display: inline-block;
+  padding: 1rem;
+}
+
+.scrollspy-example2 h5 {
+  display: inline-block;
+}
+
+.scrollspy-example3 {
+  height: 30rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 40%;
+  border: 2px solid black;
+  display: inline-block;
+  padding: 1rem;
+}
+
+.scrollspy-example3 h5 {
+  display: inline-block;
+}
+
+.scrollspy-example4 {
+  height: 30rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 0rem;
+  float: left;
+  width: 70%;
+  margin-top: 1rem;
+}
+
+.card2 {
+  margin: 1rem;
+}
+
+.sign_in {
+  color: whitesmoke;
+  width: 100%;
+  background-image: url("./image/main_image2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sign_in h1{
+  color: whitesmoke;
+  font-size: 48px;
+  padding: 8rem 0rem;
+}
+
+.sign_in h3{
+  color: whitesmoke;
+  font-size: 32px;
+  padding: 4rem 0rem;
+}
+
+.main-form {
+  background-color: gray;
+  width: 100%;
+}
+
+.main-form h1 {
+  font-size: 48px;
+  padding: 4rem 0rem
+}
+
+.main-form h3 {
+  padding: 4rem 0rem;
+  font-size: 32px;
+}
+
+.Header {
+  height: 4rem;
+  background-color: whitesmoke;
+  border-bottom: 2px solid black;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+.Header a {
+  color: black;
+  text-decoration: none;
+}
+
+.Header a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.arrow-down {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+  width: 150px;
+  height: 150px;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.sideText {
+  width: 10%;
+}
+
+.mainText {
+  padding: 5rem 0rem;
+  width: 80%;
+  text-align: center;
+}
+
+
+.Header a:hover {
+  display: block;
+  animation: mover 1s;
+  position: relative;
+}
+
+.form_main h5 {
+ padding-top: 1rem;
+}
