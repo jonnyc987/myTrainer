@@ -122,7 +122,7 @@ class Map extends Component {
         pitch: 0
       },
       token:
-        "pk.eyJ1IjoiamNhcm9uMjYiLCJhIjoiY2pvcm93MDBnMDBuNjNwczV1dW5paTFuaSJ9.co6eNn9ZARfmr6Y-FeAH-g",
+        "Your_API_Key",
       popupInfo: null
     };
   }
