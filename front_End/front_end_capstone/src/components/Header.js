@@ -6,7 +6,7 @@ class Header extends Component {
     return (
       <div className="Header">
         <div className="row">
-          <div className="col-sm-3 col-md-4 col-lg-4">
+          <div>
             <h1 style={{ display: "inline-block" }}>
               <Link style={{ textDecoration: "none" }} to="/home">
                 myTrainer
@@ -19,21 +19,52 @@ class Header extends Component {
               display: "inline-block",
               textAlign: "right"
             }}
-            className="col-sm-6 col-md-6 col-lg-6"
+            className="col-sm-8 col-md-8 col-lg-8"
           >
             {" "}
-            <div className="mr-4" style={{display: "inline-block", fontSize: "20px"}}>
-              <Link className="text-right" to="/gym">
-                Trainer Directory
-              </Link>
+            <div className="header_1">
+              <div
+                className="mr-4"
+                style={{ display: "inline-block", fontSize: "20px" }}
+              >
+                <Link className="text-right" to="/gym">
+                  Trainer Directory
+                </Link>
+              </div>
+              <div style={{ display: "inline-block", fontSize: "20px" }}>
+                <Link className="text-right" to="/getStarted">
+                  Get Started
+                </Link>
+              </div>
             </div>
-            <div style={{display: "inline-block", fontSize: "20px"}}>
-              <Link className="text-right" to="/getStarted">
-                Get Started
-              </Link>
+            <div className="header_2 ">
+              <div className="dropdown container-fluid">
+                <button
+                  type="button"
+                  className="btn btn-secondary dropdown-toggle btn-header"
+                  id="dropdownMenuOffset"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  data-offset="10,20"
+                >
+                 Menu
+                </button>
+                <div
+                  className="dropdown-menu"
+                  aria-labelledby="dropdownMenuOffset"
+                >
+                  <Link className="dropdown-item" to="/gym">
+                    Trainer Directory
+                  </Link>
+                  <Link className="dropdown-item" to="/getStarted">
+                    Get Started
+                  </Link>
+                </div>
+              </div>
             </div>
+            <nav />
           </div>
-          <nav />
         </div>
       </div>
     );

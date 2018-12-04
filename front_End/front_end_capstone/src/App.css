@@ -20,6 +20,8 @@
   margin-top: 1rem;
   float: left;
   width: 30%;
+  position: absolute;
+  top: 4rem;
 }
 
 .card {
@@ -76,7 +78,11 @@
   margin: 0rem;
   float: left;
   width: 70%;
+  position: absolute;
+  top: 5rem;
+  left: 18rem;
   margin-top: 1rem;
+  padding-left: 2rem;
 }
 
 .card2 {
@@ -91,13 +97,13 @@
   background-size: cover;
 }
 
-.sign_in h1{
+.sign_in h1 {
   color: whitesmoke;
   font-size: 48px;
   padding: 8rem 0rem;
 }
 
-.sign_in h3{
+.sign_in h3 {
   color: whitesmoke;
   font-size: 32px;
   padding: 4rem 0rem;
@@ -110,7 +116,7 @@
 
 .main-form h1 {
   font-size: 48px;
-  padding: 4rem 0rem
+  padding: 4rem 0rem;
 }
 
 .main-form h3 {
@@ -170,7 +176,6 @@
   text-align: center;
 }
 
-
 .Header a:hover {
   display: block;
   animation: mover 1s;
@@ -178,5 +183,238 @@
 }
 
 .form_main h5 {
- padding-top: 1rem;
+  padding-top: 1rem;
+}
+
+.btn-header {
+  display: none;
+}
+
+.Header h1 {
+  padding: 0.4rem 2rem;
+}
+
+.scrollspy-example12 {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .btn-header {
+    display: inline-block;
+    background-color: gray;
+  }
+
+  .row {
+    flex-wrap: nowrap;
+  }
+
+  .dropdown {
+    display: flex;
+  }
+
+  .header_1 {
+    display: none;
+  }
+
+  .header_2 {
+    display: inline-block;
+  }
+
+  .Header h1 {
+    padding: 0.4rem 2rem;
+  }
+
+  .scrollspy-example4 {
+    height: 30rem;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    float: left;
+    width: 45%;
+    position: absolute;
+    left: 21rem;
+    top: 4rem;
+  }
+
+  .scrollspy-example {
+    height: 30rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    float: left;
+    width: 40%;
+    margin-left: 1.5rem;
+    position: absolute;
+    top: 3rem;
+  }
+
+  .card {
+    margin-right: 1rem;
+    padding: 1rem 0rem;
+  }
+
+  .scrollspy-example12 {
+    display: none;
+  }
+
+  .bioDesktop {
+    display: none;
+  }
+
+  .bioMobile {
+    display: block;
+    border: 1px solid black;
+    position: absolute;
+    width: 19rem;
+    top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .scrollspy-example4 {
+    height: 30rem;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    float: left;
+    width: 80%;
+    position: absolute;
+    top: 15rem;
+    left: 0rem;
+  }
+
+  .scrollspy-example {
+    display: none;
+  }
+
+  .scrollspy-example12 {
+    display: block;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    float: left;
+    width: 90%;
+    padding-left: 1.5rem;
+    position: absolute;
+    top: 5rem;
+  }
+
+  .card {
+    display: none;
+  }
+
+  .card-mobile {
+    border: 1px solid black;
+    margin-right: 1rem;
+    width: 20rem;
+  }
+
+  .card2 {
+    margin-right: 1rem;
+  }
+
+  .bioMobile {
+    display: block;
+    border: 1px solid black;
+    position: absolute;
+    width: 17rem;
+    top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .scrollspy-example4 {
+    height: 30rem;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    float: left;
+    width: 90%;
+    position: absolute;
+    top: 15rem;
+    left: 0rem;
+  }
+
+  .scrollspy-example {
+    display: none;
+  }
+
+  .scrollspy-example12 {
+    overflow-y: hidden;
+    overflow-x: scroll;
+    float: left;
+    width: 90%;
+    padding-left: 1.5rem;
+    position: absolute;
+    top: 5rem;
+  }
+
+  .card {
+    display: none;
+  }
+
+  .card-mobile {
+    border: 1px solid black;
+    margin-right: 1rem;
+    width: 20rem;
+  }
+
+  .card2 {
+    margin-right: 1rem;
+  }
+
+  .bioMobile {
+    display: block;
+    border: 1px solid black;
+    position: absolute;
+    width: 17rem;
+    top: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .scrollspy-example4 {
+    height: 30rem;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    float: left;
+    width: 90%;
+    position: absolute;
+    top: 15rem;
+    left: 0rem;
+    margin-left: 0.5rem;
+    padding-left: 0rem
+  }
+
+  .scrollspy-example {
+    display: none;
+  }
+
+  .scrollspy-example12 {
+    overflow-y: hidden;
+    overflow-x: scroll;
+    float: left;
+    width: 90%;
+    padding-left: 1.5rem;
+    position: absolute;
+    top: 5rem;
+  }
+
+  .card {
+    display: none;
+  }
+
+  .card-mobile {
+    border: 1px solid black;
+    margin-right: 1rem;
+    width: 20rem;
+  }
+
+  .card2 {
+    margin-right: 1rem;
+  }
+
+  .bioMobile {
+    display: block;
+    border: 1px solid black;
+    position: absolute;
+    width: 15rem;
+    top: 1rem;
+  }
 }

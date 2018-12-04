@@ -38,11 +38,10 @@ class Home extends Component {
       <div>
         <div
           className="sign_in container-fluid"
-          style={{ backgroundColor: "whitesmoke" }}
         >
           <div className="row">
             <div className="sideText" />
-            <div className="mainText">
+            <div className="mainText container-fluid">
               <h1>Find Your Personal Trainer from around Vancouver</h1>
               <h3>Scroll down to see gyms near you</h3>
               <div>
@@ -122,7 +121,7 @@ class Map extends Component {
         pitch: 0
       },
       token:
-        "Your_API_Key",
+        "pk.eyJ1IjoiamNhcm9uMjYiLCJhIjoiY2pvcm93MDBnMDBuNjNwczV1dW5paTFuaSJ9.co6eNn9ZARfmr6Y-FeAH-g",
       popupInfo: null
     };
   }

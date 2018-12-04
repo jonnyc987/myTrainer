@@ -13,7 +13,7 @@ class TrainerDetails extends Component {
     );
 
    const trainerDetails = trainersList.map((trainer, i) => (
-  <div key={trainer.id} className="col-sm-6 col-md-6">
+  <div key={trainer.id} >
     <div  className="card2" style={{ width: "18rem", border: "black solid 1px" }}>
       <img className="card-img-top" style={{width: "100%", height: "12rem"}} src={trainer.trainerImage} alt="hi" />
       <div className="card-body">
@@ -51,26 +51,4 @@ class TrainerDetails extends Component {
 }
 
 export default TrainerDetails;
-
-          // <div className="card" style={{ width: "18rem", margin: "2rem" }}>
-          //   <img
-          //     className="card-img-top"
-          //     src={trainersList[0].trainerImage}
-          //     alt="Card image cap"
-          //   />
-          //   <div className="card-body">
-          //     <h5 className="card-title">
-          //       {trainersList.firstName.length}
-          //       {trainersList.lastName.length}
-          //     </h5>
-          //     <p className="card-text">
-          //       {trainersList.trainingDays.length}
-          //       <br />
-          //       {trainersList.trainingTime.length}
-          //     </p>
-          //     <a href="#" className="btn btn-primary">
-          //       Trainer Bio
-          //     </a>
-          //   </div>
-          // </div>
 
